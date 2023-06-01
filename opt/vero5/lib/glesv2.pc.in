@@ -1,0 +1,11 @@
+prefix=/opt/vero3
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: glesv2
+Description: OpenGL/ES 2.0 Library
+Version: 2
+Libs: -L${libdir} -lGLESv2
+Cflags: -I${includedir}
+
